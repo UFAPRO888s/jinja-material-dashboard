@@ -16,7 +16,7 @@
 
 <br />
 
-![Jinja Template - Material Dashboard, thumbnail image.]https://raw.githubusercontent.com/app-generator/jinja-material-dashboard/master/media/jinja-template-material-dashboard-screen.png)
+![Jinja Template - Material Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-material-dashboard/master/media/jinja-template-material-dashboard-screen.png)
 
 <br />
 
