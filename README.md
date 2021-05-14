@@ -16,6 +16,7 @@
 > Links
 
 - [Jinja Material Dashboard](https://jinja-material-dashboard.appseed-srv1.com) - starter in action
+- [Jinja Material Dashboard](https://docs.appseed.us/products/jinja-templates/material-dashboard) - product documentation
 - More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
