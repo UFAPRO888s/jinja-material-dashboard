@@ -22,7 +22,7 @@
 
 <br />
 
-![Jinja Template - Material Dashboard, thumbnail image.](https://raw.githubusercontent.com/app-generator/jinja-material-dashboard/master/media/jinja-template-material-dashboard-screen.png)
+![Jinja Material Dashboard 2 - GIF animated presentation.](https://user-images.githubusercontent.com/51070104/138425163-0843c6e6-8e23-49d2-8bd3-04b55967c08e.gif)
 
 <br />
 
