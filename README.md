@@ -6,7 +6,9 @@
 
 > Features:
 
-- UI Kit: **Material Dashboard** (Free Version) by **Creative-Tim**
+- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- [SCSS compilation](#recompile-css) via **Gulp**
+- UI Kit: **Material Dashboard - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
 - Render Engine: Flask / **Jinja2**
 - Deployment scripts: Docker, Gunicorn/Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
@@ -104,6 +106,49 @@ The project has a simple structure, represented as bellow:
 
 <br />
 
+## Recompile CSS
+
+To recompile SCSS files, follow this setup:
+
+<br />
+
+**Step #1** - Install tools
+
+- [NodeJS](https://nodejs.org/en/) 12.x or higher
+- [Gulp](https://gulpjs.com/) - globally 
+    - `npm install -g gulp-cli`
+- [Yarn](https://yarnpkg.com/) (optional) 
+
+<br />
+
+**Step #2** - Change the working directory to `assets` folder
+
+```bash
+$ cd app/static/assets
+```
+
+<br />
+
+**Step #3** - Install modules (this will create a classic `node_modules` directory)
+
+```bash
+$ npm install
+// OR
+$ yarn
+```
+
+<br />
+
+**Step #4** - Edit & Recompile SCSS files 
+
+```bash
+$ gulp scss
+```
+
+The generated file is saved in `static/assets/css` directory.
+
+<br />
+
 ## Deployment
 
 The project comes with a basic configuration for [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
@@ -128,7 +173,7 @@ $ cd jinja-material-dashboard
 $ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
 ```
 
-Visit `http://localhost:5005` in your browser. The app should be up & running.
+Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 

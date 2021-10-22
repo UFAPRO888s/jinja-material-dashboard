@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.0.3] 2021-10-22
+### Improvements
+
+- Bump UI: Material Dashboard - v3.0.0
+  - Update Bootstrap to v5.1.3
+  - Update to Material Design 2
+- Bump Jinja Codebase - v2.0.0
+  - Dependencies update (all packages)
+    - Flask==2.0.1 (latest stable version)
+  - Improved Files organization
+  - UI Templates moved to home folder
+  - Docker Scripts Update
+- Added SCSS Compilation scripts  
+
 ## [1.0.2] 2021-01-13
 ### Improvements
 
