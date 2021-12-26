@@ -1,3 +1,10 @@
 flask==2.0.1
 gunicorn==20.1.0
 jinja2==3.0.1
+jsonrpc
+googledrivedownloader
+markdown
+python-wordpress-xmlrpc
+google-api-python-client
+oauth2client
+google-api-python-client
