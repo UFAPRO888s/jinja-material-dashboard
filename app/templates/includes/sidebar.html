@@ -54,8 +54,29 @@
             })
               .then(function (response) {
                 // Handle the results here (response.result has the parsed body).application/vnd.openxmlformats-officedocument.wordprocessingml.document
-                console.log("Response", response.result);
-              },
+                //console.log("Response", response.result);
+                var files = response.result;
+                //while (files.hasNext()) {
+                //  var file = files.next();
+                //  var name = file.getName();
+                //  var link = file.getUrl();
+               //   var download = "https://docs.google.com/uc?export=download&confirm=no_antivirus&id=" + file.getId();
+                //  var fileType = file.getMimeType();
+                //  var lastUpdate = Utilities.formatDate(file.getLastUpdated(), "Asia/Bangkok", "yyyyMMdd");
+                  //console.log(fileType)
+                 // if (lastUpdate === date) {
+                 //   if(fileType === "image/jpeg" || fileType === "image/png"){
+                 //       console.log(name, lastUpdate, fileType, download);
+                 //       var for_site = name.replace(".jpeg","").replace(".jpg","").replace(".png","").split("_")
+                 //       sheetIMG.appendRow([name,lastUpdate,fileType, download,for_site[0]+"_"+for_site[2]])
+                       
+                  //  }
+                    //sheetIMG.appendRow([name,lastUpdate,fileType, download]) 
+                 // }
+                  
+                //console.log(file.getName());
+                //} 
+             },
                 function (err) { console.error("Execute error", err); });
           }
           gapi.load("client:auth2", function () {
